@@ -1,0 +1,110 @@
+header .navbar{
+    width: 100%;
+    height: 70px;
+    margin: 0 auto;
+    backdrop-filter: blur(15px);
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    
+}
+
+.navbar>.logo{
+    padding: 0 16px;
+}
+
+.navbar>nav{
+    display: none;
+}
+
+.navbar nav .navlink ul li a{
+    color: #525560;
+}
+
+.navbar nav .navlink ul li:nth-of-type(3) a{
+    color: #0B0706;
+}
+
+/* Collapse Menu */
+header .navbar .collapse{
+    width: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .collapse label[for=show] svg{
+    padding: 0 16px;
+    cursor: pointer;
+}
+
+.navbar .opened-menu{
+    width: 100%;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 555544;
+    box-shadow: 0px 4px 8px 0px rgba(128,128,128,0.75);
+    transition: 400ms;
+}
+
+.navbar .opened-menu nav{
+    width: inherit;
+}
+
+.navbar .opened-menu nav ul{
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: start;
+    align-items: start;
+}
+
+.navbar .opened-menu nav ul li{
+    width: 100%;
+    height: 60px;
+}
+
+.navbar .opened-menu nav ul li a{
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    line-height: 44px;
+    padding: 8px;
+    transition: 280ms;
+}
+
+.navbar .opened-menu nav ul li a:hover{
+    background-color: #bef3c0;
+}
+
+.navbar .opened-menu nav ul li:last-child a:not(:hover){
+    background-color: #1D2130;
+    color: white;
+}
+
+.navbar .opened-menu label[for=close]{
+    width: 40px;
+    position: absolute;
+    right: 4px;
+    top: 0;
+    font-size: 52px;
+    color: #1c2853;
+    cursor: pointer;
+}
+
+#show:checked~.opened-menu{
+    top: 0;
+}
+
+#close:checked~.opened-menu{
+    top: -400px;
+}
+
+#show,#close{
+    display: none;
+}

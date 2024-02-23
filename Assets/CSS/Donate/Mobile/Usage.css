@@ -1,0 +1,33 @@
+main .usage{
+    width: 100%;
+    border-top: 1px solid #E5E5E5;
+    margin: 24px auto;
+}
+
+.usage .guide{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    row-gap: 32px;
+    padding-top: 48px;
+    text-align: center;
+}
+
+.usage .guide h2{
+    width: 92%;
+    color: #1D2130;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.usage .guide p{
+    width: 92%;
+    color: #525560;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+}

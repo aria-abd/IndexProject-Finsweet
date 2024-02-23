@@ -1,0 +1,56 @@
+main .aboutus{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    column-gap: 16px;
+}
+
+.aboutus .mainblog{
+    width: 42%;
+}
+
+.aboutus .sideblog{
+    width: 42%;
+}
+
+.aboutus .mainblog .title span{
+    color: #1D2130;
+    letter-spacing: 2px; 
+    text-transform: uppercase;
+    margin-left: 24px;
+    font-size: 14px;
+}
+
+.aboutus .mainblog .title svg{
+    stroke-width: 2px; 
+}
+
+.aboutus .mainblog .description p{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 120%;
+    color: #1D2130;
+    margin-top: 32px;
+}
+
+
+.aboutus .sideblog .post p:first-child{
+    color: #1D2130;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+}
+
+.aboutus .sideblog .post p:last-child{
+    color: #1D2130;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    opacity: 0.7;
+    margin-top: 16px;
+}

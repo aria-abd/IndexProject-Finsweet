@@ -1,0 +1,84 @@
+main .ourjourney{
+    width: 78%;
+    margin: 48px auto;
+    background-color: #0B0706;
+    border-radius: 1rem;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 48px;
+}
+
+.ourjourney .left-side{
+    flex-basis: 50%;
+    padding: 128px 48px 146px 96px;
+
+}
+
+.ourjourney .right-side{
+    flex-basis: 50%;
+}
+
+
+.ourjourney .right-side figure img{
+    width: 100%;
+}
+
+.ourjourney .left-side .description p:first-child{
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.ourjourney .left-side .description p:last-child{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    opacity: 0.6; 
+    margin-top: 16px;
+}
+
+.ourjourney .left-side .description h2{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    margin-top: 16px;
+}
+
+.ourjourney .left-side .stats{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: start;
+    align-items: center;
+    column-gap: 32px;
+    margin-top: 32px;
+}
+
+.ourjourney .left-side .stats .stat p:first-child{
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%;
+}
+
+.ourjourney .left-side .stats .stat p:last-child{
+    color: #FFF;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%;
+    opacity: 0.6;
+}
+

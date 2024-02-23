@@ -1,0 +1,17 @@
+main .video{
+    width: 100%;
+    position: absolute;
+}
+
+.video img{
+    width: 768px;
+    display: block;
+    margin: auto;
+}
+
+.video svg{
+    position: absolute;
+    right: calc(50% - 64px / 2);
+    bottom:calc(50% - 64px / 2);
+    cursor: pointer;
+}

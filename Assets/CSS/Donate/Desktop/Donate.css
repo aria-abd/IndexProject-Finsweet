@@ -1,0 +1,62 @@
+main .donate{
+    width: 100%;
+    height: 576px;
+    background: #EFF7F2;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    column-gap: 110px;
+}
+
+.donate .mainblog{
+    width: 33%;
+}
+
+.donate .sideblog{
+    width: 33%;
+}
+
+.donate .mainblog .title{
+    transform: translateX(-16%);
+}
+
+.donate .mainblog .title span{
+    color: #1D2130;
+    letter-spacing: 2px; 
+    text-transform: uppercase;
+    margin-left: 24px;
+}
+
+.donate .mainblog .title svg{
+    stroke-width: 2px; 
+}
+
+.donate .mainblog .description p:nth-of-type(1){
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 120%;
+    color: #1D2130;
+    margin-top: 32px;
+}
+
+.donate .mainblog .description p:nth-of-type(2){
+    line-height: 160%;
+    color: #989ba7;
+    margin-top: 16px;
+}
+
+.donate .mainblog a{
+    display: inline-block;
+    padding: 16px 32px;
+    margin-top: 48px;
+    border-radius: 4px;
+    background: #70C174;
+    backdrop-filter: blur(40px);
+    color: #FFF;
+    text-align: right;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}

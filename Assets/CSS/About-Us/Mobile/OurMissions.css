@@ -1,0 +1,85 @@
+main .ourmissions{
+    width: 100%;
+    background-color: #EFF7F2;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    row-gap: 40px;
+}
+
+.ourmissions .parts{
+    width: 90%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    row-gap: 40px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.ourmissions .parts .mission-vision{
+    width: 100%;
+}
+
+.ourmissions .parts .mission-vision p:first-child{
+    color: #1D2130;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+
+}
+
+.ourmissions .parts .mission-vision p:last-child{
+    color: #1D2130;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    opacity: 0.7;
+    margin-top: 8px;
+}
+
+.ourmissions .parts .mission-vision h3{
+    color: #1D2130;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+}
+
+.ourmissions .supporters{
+    width: 92%;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: start;
+    row-gap: 25px;
+    padding-bottom: 12px;
+}
+
+.ourmissions .supporters .title {
+    width: 100%;
+}
+
+.ourmissions .supporters .title p{
+    color: #1D2130;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.ourmissions .supporters .brands{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 12px;
+}

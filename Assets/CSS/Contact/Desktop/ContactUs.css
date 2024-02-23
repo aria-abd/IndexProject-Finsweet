@@ -1,0 +1,106 @@
+main .contactus{
+    width: 100%;
+    height: 584px;
+    background-color: #EFF7F2;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    column-gap: 96px;
+}
+
+.contactus .left-side{
+    flex-basis: 33%;
+}
+
+.contactus .right-side{
+    flex-basis: auto;
+}
+
+.contactus .left-side .title{
+    transform: translateX(-16%);
+}
+
+.contactus .left-side .title span{
+    color: #1D2130;
+    letter-spacing: 2px; 
+    text-transform: uppercase;
+    margin-left: 24px;
+}
+
+.contactus .left-side .title svg{
+    stroke-width: 2px; 
+}
+
+.contactus .left-side .description p:nth-of-type(1){
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 120%;
+    color: #1D2130;
+    margin-top: 32px;
+}
+
+.contactus .left-side .description p:nth-of-type(2){
+    color: #1D2130;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    opacity: 0.6;
+    margin-top: 16px;
+}
+
+.contactus .left-side .description a{
+    display: inline-block;
+    padding: 16px 32px;
+    border-radius: 4px;
+    background: #70C174;
+    backdrop-filter: blur(40px);
+    margin-top: 32px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.contactus .right-side{
+    border-radius: 12px;
+    padding: 0 56px 24px 24px;
+}
+
+.contactus .right-side .contact-details{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: start;
+    row-gap: 32px;
+}
+
+.contactus .right-side .contact-details p{
+    color: #1D2130;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 160%;
+    padding-bottom: 8px;
+}
+
+.contactus .right-side .contact-details span{
+    color: #525560;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    opacity: 0.8;
+}
+
+.contactus .right-side .contact-details .socialmedia{
+    margin-top: 32px;
+}
+
+.contactus .right-side .contact-details .socialmedia a{
+    margin-right: 20px;
+    transition: 400ms;
+}
+
+.contactus .right-side .contact-details .socialmedia a:hover{
+    opacity: 0.6;
+}

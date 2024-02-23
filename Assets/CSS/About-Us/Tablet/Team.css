@@ -1,0 +1,87 @@
+main .team{
+    width: 100%;
+    padding: 24px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: start;
+    align-items: center;
+    row-gap: 48px;
+}
+
+.team .title{
+    width: 520px;
+}
+
+.team .title h2{
+    color: #1D2130;
+    text-align: center;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%
+}
+
+.team .title p{
+    color: #525560;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    opacity: 0.6;
+    margin-top: 16px;
+}
+
+.team .team-members{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    column-gap: 32px;
+    row-gap: 48px;
+}
+
+.team .team-members .portfolio{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    row-gap: 16px;
+}
+
+.team .team-members .portfolio figcaption{
+    text-align: center;
+}
+
+.team .team-members .portfolio figcaption p:first-child{
+    color: #1D2130;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%;
+}
+
+.team .team-members .portfolio figcaption p:last-child{
+    color: #1D2130;
+    font-size:14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%;
+    opacity: 0.6;
+    padding-top: 8px;
+}
+
+.team .team-members .portfolio .socialmedia{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    column-gap: 20px;
+}
+
+.team .team-members .portfolio .socialmedia a{
+    transition: 400ms;
+}
+
+.team .team-members .portfolio .socialmedia a:hover{
+    opacity: 0.8;
+}

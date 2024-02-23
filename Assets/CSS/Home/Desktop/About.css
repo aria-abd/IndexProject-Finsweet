@@ -1,0 +1,135 @@
+main .about {
+  width: 100%;
+  padding: 96px;
+  background-color: #ffffff;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  row-gap: 115px;
+}
+
+.about .top {
+  width: inherit;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  column-gap: 48px;
+}
+
+.about .top .text {
+  width: 47%;
+}
+
+.about .top .text .line {
+  width: fit-content;
+  height: 19px;
+  display: flex;
+  column-gap: 24px;
+  align-items: center;
+  color: #1D2130;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 32px;
+}
+
+.about .top .text .title {
+  width: 100%;
+ padding-left: 97px;
+}
+
+.about .top .text .title h2 {
+  color: #1d2130;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  margin-bottom: 32px;
+}
+
+.about .top .text .description {
+  width: 100%;
+  padding-left: 97px;
+}
+
+.about .top .text .description p {
+  color: #525560;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+}
+
+.about .top .text button {
+  display: inline-flex;
+  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 4px;
+  background: #70c174;
+  backdrop-filter: blur(40px);
+  margin-left: 97px;
+  margin-top: 48px;
+  color: #fff;
+  text-align: right;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border: unset;
+  cursor: pointer;
+}
+
+.about .top .video {
+  width: 480px;
+  position: relative;
+}
+
+.about .top .video  img{
+  width: 100%;
+  object-fit: cover;
+}
+
+.about .top .video svg{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  cursor: pointer;
+}
+
+.about .supporters{
+  width: 100%;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: start;
+  row-gap: 50px;
+}
+
+.about .supporters .title {
+  width: 100%;
+}
+
+.about .supporters .title p{
+  color: #1D2130;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.about .supporters .brands{
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}

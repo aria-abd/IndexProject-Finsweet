@@ -1,0 +1,107 @@
+main .projects{
+    width: 85%;
+    margin: 96px auto;
+    text-align: center;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    row-gap: 64px;
+}
+
+.projects .title{
+    width: 700px;
+    text-align: center;
+}
+
+.projects .title p{
+    color: #1D2130;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.projects .title h2{
+    color: #1D2130;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+
+.projects .project-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    column-gap: 24px;
+}
+
+.projects .project-container .project{
+    width: 411px;
+    height: 421px;
+    border-radius: 12px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    row-gap: 18px;
+}
+
+.projects .project-container .project:nth-of-type(1){
+    background-image: url(../../../Images/Image4.png);
+    background-repeat: no-repeat; 
+}
+
+.projects .project-container .project:nth-of-type(2){
+    background-image: url(../../../Images/Image5.png);
+    background-repeat: no-repeat;
+}
+
+.projects .project-container .project:nth-of-type(3){
+    background-image: url(../../../Images/Image6.png);
+    background-repeat: no-repeat;
+}
+
+.projects .project-container .project h3{
+    width: 315px;
+    color: #FFF;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    text-align: left;
+}
+
+.projects .project-container .project p{
+    width: 315px;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    text-align: left;
+}
+
+.projects .project-container .project button{
+    border-radius: 4px;
+    background: #FFF;
+    backdrop-filter: blur(40px);
+    border: 1px solid gray;
+    padding: 16px 32px;
+    align-self: flex-start;
+    margin-top: 46px;
+    margin-left: 48px;
+    cursor: pointer;
+    color: #434a63;
+    text-align: right;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}

@@ -1,0 +1,56 @@
+main .cta{
+    width: 90%;
+    height: 385px;
+    margin: 136px auto;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    background: url(../../../Images/Image7.png);
+    background-size: cover;
+    background-position: right bottom; 
+    border-radius: 12px;
+}
+
+.cta .title{
+    width: 94%;
+}
+
+.cta .title h2{
+    color: #FFF; 
+    text-align: center;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.cta .btn {
+    text-align: center;
+}
+
+.cta .btn a{
+    height: 51px;
+    display: inline-block;
+    margin: 16px 12px;
+    line-height: 51px;
+    border-radius: 4px;
+    backdrop-filter: blur(40px);
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.cta .btn a:nth-of-type(1){
+    width: 200px;
+    background: #70C174;
+    color: #FFF;
+}
+
+.cta .btn a:nth-of-type(2){
+    width: 120px;
+    background: #FFF; 
+    color: #1D2130; 
+
+}

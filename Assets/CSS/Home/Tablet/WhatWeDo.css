@@ -1,0 +1,100 @@
+main .whatwedo {
+  width: 100%;
+  padding: 96px;
+  background-color: #EFF7F2;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  row-gap: 40px;
+}
+
+.whatwedo .text {
+  width: 100%;
+}
+
+.whatwedo .text .line {
+  width: fit-content;
+  height: 19px;
+  display: flex;
+  column-gap: 24px;
+  align-items: center;
+  color: #1D2130;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 32px;
+}
+
+.whatwedo .text .title {
+  width: 100%;
+}
+
+.whatwedo .text .title h2 {
+  color: #1d2130;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  margin-bottom: 32px;
+}
+
+.whatwedo .text>.description {
+  width: 100%;
+}
+
+.whatwedo .text>.description p {
+  color: #525560;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+}
+
+.whatwedo .text .features{
+  display: flex;
+  flex-flow: column wrap;
+  row-gap: 24px;
+  margin-top: 32px;
+}
+
+.whatwedo .text .features .feature{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: start;
+  gap: 24px;
+}
+
+.whatwedo .text .features .feature svg{
+  flex-basis: auto;
+}
+
+.whatwedo .text .features .feature .description{
+  flex-basis: 90%;
+}
+
+.whatwedo .text .features .feature .description h2{
+  color: #1D2130;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.whatwedo .text .features .feature .description p{
+  color: #525560;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  padding-top: 8px;
+}
+
+.whatwedo .image img{
+  width: 480px;
+  object-fit: cover;
+}

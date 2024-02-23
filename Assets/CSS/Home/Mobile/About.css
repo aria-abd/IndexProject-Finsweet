@@ -1,0 +1,135 @@
+main .about {
+  width: 100%;
+  padding: 48px 0;
+  background-color: #ffffff;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  row-gap: 80px;
+  text-align: center;
+}
+
+.about .top {
+  width: 96%;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  row-gap: 40px;
+}
+
+.about .top .text {
+  width: 100%;
+}
+
+.about .top .text .line {
+  width: 100%;
+  height: 19px;
+  color: #1D2130;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 32px;
+}
+
+.about .text .line svg{
+  display: none;
+}
+
+.about .top .text .title {
+  width: 100%;
+}
+
+.about .top .text .title h2 {
+  color: #1d2130;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  margin-bottom: 32px;
+}
+
+.about .top .text .description {
+  width: 100%;
+}
+
+.about .top .text .description p {
+  color: #525560;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+}
+
+.about .top .text button {
+  display: inline-flex;
+  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 4px;
+  background: #70c174;
+  backdrop-filter: blur(40px);
+  margin-top: 24px;
+  color: #fff;
+  text-align: right;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border: unset;
+  cursor: pointer;
+}
+
+.about .top .video {
+  width: 300px;
+  position: relative;
+}
+
+.about .top .video  img{
+  width: 100%;
+  object-fit: cover;
+}
+
+.about .top .video svg{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  cursor: pointer;
+}
+
+.about .supporters{
+  width: 92%;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: start;
+  row-gap: 25px;
+  padding-bottom: 12px;
+}
+
+.about .supporters .title {
+  width: 100%;
+}
+
+.about .supporters .title p{
+  color: #1D2130;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.about .supporters .brands{
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  gap: 12px;
+}

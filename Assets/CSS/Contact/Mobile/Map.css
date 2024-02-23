@@ -1,0 +1,15 @@
+main .map{
+    width: 100%;
+    display: none;
+}
+
+.map .image{
+    width: inherit;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.map .image img{
+    width: inherit;
+    object-fit: fill;
+}
